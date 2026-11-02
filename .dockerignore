@@ -1,0 +1,10 @@
+node_modules
+.git
+.env
+*.log
+data
+*.db
+*.db-wal
+*.db-shm
+README.md
+.fly

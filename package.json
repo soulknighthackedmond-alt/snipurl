@@ -1,0 +1,17 @@
+{
+  "name": "snipurl",
+  "version": "1.0.0",
+  "description": "A small URL shortener with click stats, ready to deploy to Fly.io",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "start": "node --experimental-sqlite --disable-warning=ExperimentalWarning src/server.js",
+    "dev": "node --experimental-sqlite --disable-warning=ExperimentalWarning --watch src/server.js",
+    "test": "node --experimental-sqlite --disable-warning=ExperimentalWarning --test test/server.test.js"
+  },
+  "license": "MIT",
+  "private": true
+}

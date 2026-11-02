@@ -1,0 +1,12 @@
+node_modules/
+data/
+.more/
+.tmp-test-db/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+.env
+.DS_Store
+*.log
+.envcheck.cmd
